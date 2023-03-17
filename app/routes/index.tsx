@@ -1,4 +1,9 @@
+import { useConnect } from 'wagmi';
+
 export default function Index() {
+
+  const { connectors,connect } = useConnect()
+
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
       <h1>Welcome to Remix</h1>
@@ -26,6 +31,11 @@ export default function Index() {
             Remix Docs
           </a>
         </li>
+        {connectors.map(connector => {
+          return <li key={connector.id} onClick={() => connect({connector}) }>
+            <button>{connector.name}</button>
+          </li>
+        })}
       </ul>
     </div>
   );
