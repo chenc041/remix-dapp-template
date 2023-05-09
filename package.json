@@ -25,7 +25,7 @@
     "isbot": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "wagmi": "^0.12.2"
+    "wagmi": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.21.3",
