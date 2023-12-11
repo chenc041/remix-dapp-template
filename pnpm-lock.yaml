@@ -19,7 +19,7 @@ dependencies:
     version: 1.4.5(@types/react@18.2.17)(react@18.2.0)(typescript@5.1.6)(viem@0.3.50)
   '@web3modal/ethereum':
     specifier: ^2.2.1
-    version: 2.2.1(@wagmi/core@1.0.5)(ethers@6.8.0)
+    version: 2.2.1(@wagmi/core@1.4.5)(ethers@6.8.0)
   axios:
     specifier: ^1.3.4
     version: 1.3.4
@@ -45,13 +45,13 @@ devDependencies:
     version: 7.21.3
   '@remix-run/dev':
     specifier: ^2.0.0
-    version: 2.1.0(@remix-run/serve@2.1.0)(@types/node@20.8.9)(sass@1.59.3)(typescript@5.1.6)
+    version: 2.1.0(@remix-run/serve@2.1.0)(@types/node@20.10.4)(sass@1.59.3)(typescript@5.1.6)
   '@remix-run/eslint-config':
     specifier: ^2.0.0
     version: 2.1.0(eslint@8.36.0)(react@18.2.0)(typescript@5.1.6)
   '@types/node':
-    specifier: ^20.0.0
-    version: 20.8.9
+    specifier: ^20.10.4
+    version: 20.10.4
   '@types/react':
     specifier: ^18.2.17
     version: 18.2.17
@@ -1706,7 +1706,7 @@ packages:
     dev: true
     optional: true
 
-  /@remix-run/dev@2.1.0(@remix-run/serve@2.1.0)(@types/node@20.8.9)(sass@1.59.3)(typescript@5.1.6):
+  /@remix-run/dev@2.1.0(@remix-run/serve@2.1.0)(@types/node@20.10.4)(sass@1.59.3)(typescript@5.1.6):
     resolution: {integrity: sha512-Hn5lw46F+a48dp5uHKe68ckaHgdStW4+PmLod+LMFEqrMbkF0j4XD1ousebxlv989o0Uy/OLgfRMgMy4cBOvHg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -1731,7 +1731,7 @@ packages:
       '@remix-run/serve': 2.1.0(typescript@5.1.6)
       '@remix-run/server-runtime': 2.1.0(typescript@5.1.6)
       '@types/mdx': 2.0.9
-      '@vanilla-extract/integration': 6.2.1(@types/node@20.8.9)(sass@1.59.3)
+      '@vanilla-extract/integration': 6.2.1(@types/node@20.10.4)(sass@1.59.3)
       arg: 5.0.2
       cacache: 17.1.4
       chalk: 4.1.2
@@ -2042,7 +2042,6 @@ packages:
       '@noble/curves': 1.0.0
       '@noble/hashes': 1.3.2
       '@scure/base': 1.1.3
-
     dev: false
 
   /@scure/bip32@1.3.2:
@@ -2058,7 +2057,6 @@ packages:
     dependencies:
       '@noble/hashes': 1.3.2
       '@scure/base': 1.1.3
-
     dev: false
 
   /@scure/bip39@1.2.1:
@@ -2287,8 +2285,7 @@ packages:
   /@types/connect@3.4.35:
     resolution: {integrity: sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==}
     dependencies:
-
-      '@types/node': 20.8.9
+      '@types/node': 20.10.4
     dev: false
 
   /@types/cookie@0.4.1:
@@ -2340,12 +2337,14 @@ packages:
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
     dev: false
 
+  /@types/node@18.15.13:
+    resolution: {integrity: sha512-N+0kuo9KgrUQ1Sn/ifDXsvg0TTleP7rIy4zOBGECxAljqvqfqpTfzx0Q1NUedOixRMBfe2Whhb056a42cWs26Q==}
+    dev: false
 
-  /@types/node@20.8.9:
-    resolution: {integrity: sha512-UzykFsT3FhHb1h7yD4CA4YhBHq545JC0YnEz41xkipN88eKQtL6rSgocL5tbAP6Ola9Izm/Aw4Ora8He4x0BHg==}
+  /@types/node@20.10.4:
+    resolution: {integrity: sha512-D08YG6rr8X90YB56tSIuBaddy/UXAA9RKJoFvrsnogAum/0pmjkgi4+2nx96A330FmioegBWmEYQ+syqCFaveg==}
     dependencies:
       undici-types: 5.26.5
-
 
   /@types/prop-types@15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
@@ -2381,8 +2380,7 @@ packages:
   /@types/ws@7.4.7:
     resolution: {integrity: sha512-JQbbmxZTZehdc2iszGKs5oC3NFnjeay7mtAWrdt7qNtAVK0g19muApzAy4bm9byz79xa2ZnO/BOBC2R8RC5Lww==}
     dependencies:
-
-      '@types/node': 20.8.9
+      '@types/node': 20.10.4
     dev: false
 
   /@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.36.0)(typescript@5.1.6):
@@ -2601,7 +2599,7 @@ packages:
       outdent: 0.8.0
     dev: true
 
-  /@vanilla-extract/integration@6.2.1(@types/node@20.8.9)(sass@1.59.3):
+  /@vanilla-extract/integration@6.2.1(@types/node@20.10.4)(sass@1.59.3):
     resolution: {integrity: sha512-+xYJz07G7TFAMZGrOqArOsURG+xcYvqctujEkANjw2McCBvGEK505RxQqOuNiA9Mi9hgGdNp2JedSa94f3eoLg==}
     dependencies:
       '@babel/core': 7.23.2
@@ -2615,8 +2613,8 @@ packages:
       lodash: 4.17.21
       mlly: 1.2.0
       outdent: 0.8.0
-      vite: 4.2.0(@types/node@20.8.9)(sass@1.59.3)
-      vite-node: 0.28.5(@types/node@20.8.9)(sass@1.59.3)
+      vite: 4.2.0(@types/node@20.10.4)(sass@1.59.3)
+      vite-node: 0.28.5(@types/node@20.10.4)(sass@1.59.3)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -3321,16 +3319,14 @@ packages:
       - react
     dev: false
 
-  /@web3modal/ethereum@2.2.1(@wagmi/core@1.0.5)(ethers@6.8.0):
-
+  /@web3modal/ethereum@2.2.1(@wagmi/core@1.4.5)(ethers@6.8.0):
     resolution: {integrity: sha512-lSz13EaWxhJQyuAluC0FJ+hH8cx5pQyEr2f3brn5KVLIN6vgVz9rjSMLLmI1w2ukrQRKpRz0XCzDSgrerYhtQw==}
     peerDependencies:
       '@wagmi/core': '>=0.10'
       ethers: '>=5.7'
     dependencies:
-      '@wagmi/core': 1.0.5(react@18.2.0)(typescript@5.1.6)(viem@0.3.50)
+      '@wagmi/core': 1.4.5(@types/react@18.2.17)(react@18.2.0)(typescript@5.1.6)(viem@0.3.50)
       ethers: 6.8.0
-
     dev: false
 
   /@web3modal/standalone@2.4.1(react@18.2.0):
@@ -8788,6 +8784,7 @@ packages:
       - utf-8-validate
       - zod
     dev: false
+
   /viem@1.18.1(typescript@5.1.6):
     resolution: {integrity: sha512-dkZG1jI8iL7G0+KZ8ZKHCXbzZxzu8Iib7OLCxkdaqdrlNrWTEMIZSp/2AHpbjpPeAg3VFD1CUayKPTJv2ZMXCg==}
     peerDependencies:
@@ -8811,7 +8808,7 @@ packages:
       - zod
     dev: false
 
-  /vite-node@0.28.5(@types/node@18.15.3)(sass@1.59.3):
+  /vite-node@0.28.5(@types/node@20.10.4)(sass@1.59.3):
     resolution: {integrity: sha512-LmXb9saMGlrMZbXTvOveJKwMTBTNUH66c8rJnQ0ZPNX+myPEol64+szRzXtV5ORb0Hb/91yq+/D3oERoyAt6LA==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -8823,7 +8820,7 @@ packages:
       picocolors: 1.0.0
       source-map: 0.6.1
       source-map-support: 0.5.21
-      vite: 4.2.0(@types/node@20.8.9)(sass@1.59.3)
+      vite: 4.2.0(@types/node@20.10.4)(sass@1.59.3)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -8834,7 +8831,7 @@ packages:
       - terser
     dev: true
 
-  /vite@4.2.0(@types/node@20.8.9)(sass@1.59.3):
+  /vite@4.2.0(@types/node@20.10.4)(sass@1.59.3):
     resolution: {integrity: sha512-AbDTyzzwuKoRtMIRLGNxhLRuv1FpRgdIw+1y6AQG73Q5+vtecmvzKo/yk8X/vrHDpETRTx01ABijqUHIzBXi0g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -8859,7 +8856,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.8.9
+      '@types/node': 20.10.4
       esbuild: 0.17.6
       postcss: 8.4.21
       resolve: 1.22.1
