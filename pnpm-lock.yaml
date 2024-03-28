@@ -16,10 +16,10 @@ dependencies:
     version: 2.8.1(typescript@5.4.3)
   '@wagmi/core':
     specifier: ^2.6.5
-    version: 2.6.5(@types/react@18.2.65)(react@18.2.0)(typescript@5.4.3)(viem@2.9.4)
+    version: 2.6.10(@types/react@18.2.65)(react@18.2.0)(typescript@5.4.3)(viem@2.9.4)
   '@web3modal/ethereum':
     specifier: ^2.2.1
-    version: 2.7.1(@wagmi/core@2.6.5)(viem@2.9.4)
+    version: 2.7.1(@wagmi/core@2.6.10)(viem@2.9.4)
   axios:
     specifier: ^1.3.4
     version: 1.6.7
@@ -2887,8 +2887,8 @@ packages:
     engines: {node: '>=16.0.0'}
     dependencies:
       '@ethereumjs/tx': 4.2.0
-      '@noble/hashes': 1.3.3
-      '@scure/base': 1.1.5
+      '@noble/hashes': 1.4.0
+      '@scure/base': 1.1.6
       '@types/debug': 4.1.12
       debug: 4.3.4
       pony-cause: 2.1.10
@@ -2985,6 +2985,11 @@ packages:
 
   /@noble/hashes@1.3.3:
     resolution: {integrity: sha512-V7/fPHgl+jsVPXqqeOzT8egNj2iBIVt+ECeMMG8TdcnTikP3oaBtUVqpT/gYCR68aEBJSF+XbYUxStjbFMqIIA==}
+    engines: {node: '>= 16'}
+    dev: false
+
+  /@noble/hashes@1.4.0:
+    resolution: {integrity: sha512-V1JJ1WTRUqHHrOSh597hURcMqVKVGL/ea3kv0gSnEdsEZ0/+VyPghM1lMNGc00z7CIQorSvbKpuJkxvuHbvdbg==}
     engines: {node: '>= 16'}
     dev: false
 
@@ -3947,16 +3952,16 @@ packages:
     engines: {node: '>=16'}
     dev: false
 
-  /@scure/base@1.1.5:
-    resolution: {integrity: sha512-Brj9FiG2W1MRQSTB212YVPRrcbjkv48FoZi/u4l/zds/ieRrqsh7aUf6CLwkAq61oKXr/ZlTzlY66gLIj3TFTQ==}
+  /@scure/base@1.1.6:
+    resolution: {integrity: sha512-ok9AWwhcgYuGG3Zfhyqg+zwl+Wn5uE+dwC0NV/2qQkx4dABbb/bx96vWu8NSj+BNjjSjno+JRYRjle1jV08k3g==}
     dev: false
 
   /@scure/bip32@1.3.2:
     resolution: {integrity: sha512-N1ZhksgwD3OBlwTv3R6KFEcPojl/W4ElJOeCZdi+vuI5QmTFwLq3OFf2zd2ROpKvxFdgZ6hUpb0dx9bVNEwYCA==}
     dependencies:
       '@noble/curves': 1.2.0
-      '@noble/hashes': 1.3.3
-      '@scure/base': 1.1.5
+      '@noble/hashes': 1.3.2
+      '@scure/base': 1.1.6
     dev: false
 
   /@scure/bip32@1.3.3:
@@ -3964,21 +3969,21 @@ packages:
     dependencies:
       '@noble/curves': 1.3.0
       '@noble/hashes': 1.3.3
-      '@scure/base': 1.1.5
+      '@scure/base': 1.1.6
     dev: false
 
   /@scure/bip39@1.2.1:
     resolution: {integrity: sha512-Z3/Fsz1yr904dduJD0NpiyRHhRYHdcnyh73FZWiV+/qhWi83wNJ3NWolYqCEN+ZWsUz2TWwajJggcRE9r1zUYg==}
     dependencies:
-      '@noble/hashes': 1.3.3
-      '@scure/base': 1.1.5
+      '@noble/hashes': 1.3.2
+      '@scure/base': 1.1.6
     dev: false
 
   /@scure/bip39@1.2.2:
     resolution: {integrity: sha512-HYf9TUXG80beW+hGAt3TRM8wU6pQoYur9iNypTROm42dorCGmLnFe3eWjz3gOq6G62H2WRh0FCzAR1PI+29zIA==}
     dependencies:
       '@noble/hashes': 1.3.3
-      '@scure/base': 1.1.5
+      '@scure/base': 1.1.6
     dev: false
 
   /@sideway/address@4.1.5:
@@ -4558,8 +4563,8 @@ packages:
       - zod
     dev: false
 
-  /@wagmi/core@2.6.5(@types/react@18.2.65)(react@18.2.0)(typescript@5.4.3)(viem@2.9.4):
-    resolution: {integrity: sha512-DLyrc0o+dx05oIhBJuxnS7ekS5e6rB5mytlqPme+Km7aLdeBdcfYB4yJyYCyWoi93OLa7M5sbflTttz3o56bKw==}
+  /@wagmi/core@2.6.10(@types/react@18.2.65)(react@18.2.0)(typescript@5.4.3)(viem@2.9.4):
+    resolution: {integrity: sha512-CwY6T5MZgvhahNltArxVUpeh9Fk+zPeumqXyA+MIB0bdudOaxw0BjHyUOWGwcE8BH+uzT8YuTigeFVW3sKecVg==}
     peerDependencies:
       '@tanstack/query-core': '>=5.0.0'
       typescript: '>=5.0.4'
@@ -4987,14 +4992,14 @@ packages:
   /@web3-storage/multipart-parser@1.0.0:
     resolution: {integrity: sha512-BEO6al7BYqcnfX15W2cnGR+Q566ACXAT9UQykORCWW80lmkpWsnEob6zJS1ZVBKsSJC8+7vJkHwlp+lXG1UCdw==}
 
-  /@web3modal/ethereum@2.7.1(@wagmi/core@2.6.5)(viem@2.9.4):
+  /@web3modal/ethereum@2.7.1(@wagmi/core@2.6.10)(viem@2.9.4):
     resolution: {integrity: sha512-1x3qhYh9qgtvw1MDQD4VeDf2ZOsVANKRPtUty4lF+N4L8xnAIwvNKUAMA4j6T5xSsjqUfq5Tdy5mYsNxLmsWMA==}
     deprecated: Please use new @web3modal/wagmi package
     peerDependencies:
       '@wagmi/core': '>=1'
       viem: '>=1'
     dependencies:
-      '@wagmi/core': 2.6.5(@types/react@18.2.65)(react@18.2.0)(typescript@5.4.3)(viem@2.9.4)
+      '@wagmi/core': 2.6.10(@types/react@18.2.65)(react@18.2.0)(typescript@5.4.3)(viem@2.9.4)
       viem: 2.9.4(typescript@5.4.3)
     dev: false
 
