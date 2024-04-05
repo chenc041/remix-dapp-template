@@ -16,10 +16,10 @@ dependencies:
     version: 2.8.1(typescript@5.4.4)
   '@wagmi/core':
     specifier: ^2.6.5
-    version: 2.6.15(@types/react@18.2.74)(react@18.2.0)(typescript@5.4.4)(viem@2.9.9)
+    version: 2.6.16(@types/react@18.2.74)(react@18.2.0)(typescript@5.4.4)(viem@2.9.9)
   '@web3modal/ethereum':
     specifier: ^2.2.1
-    version: 2.7.1(@wagmi/core@2.6.15)(viem@2.9.9)
+    version: 2.7.1(@wagmi/core@2.6.16)(viem@2.9.9)
   axios:
     specifier: ^1.6.8
     version: 1.6.8
@@ -4781,14 +4781,14 @@ packages:
   /@web3-storage/multipart-parser@1.0.0:
     resolution: {integrity: sha512-BEO6al7BYqcnfX15W2cnGR+Q566ACXAT9UQykORCWW80lmkpWsnEob6zJS1ZVBKsSJC8+7vJkHwlp+lXG1UCdw==}
 
-  /@web3modal/ethereum@2.7.1(@wagmi/core@2.6.15)(viem@2.9.9):
+  /@web3modal/ethereum@2.7.1(@wagmi/core@2.6.16)(viem@2.9.9):
     resolution: {integrity: sha512-1x3qhYh9qgtvw1MDQD4VeDf2ZOsVANKRPtUty4lF+N4L8xnAIwvNKUAMA4j6T5xSsjqUfq5Tdy5mYsNxLmsWMA==}
     deprecated: Please use new @web3modal/wagmi package
     peerDependencies:
       '@wagmi/core': '>=1'
       viem: '>=1'
     dependencies:
-      '@wagmi/core': 2.6.15(@types/react@18.2.74)(react@18.2.0)(typescript@5.4.4)(viem@2.9.9)
+      '@wagmi/core': 2.6.16(@types/react@18.2.74)(react@18.2.0)(typescript@5.4.4)(viem@2.9.9)
       viem: 2.9.9(typescript@5.4.4)
     dev: false
 
