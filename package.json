@@ -38,7 +38,7 @@
     "eslint": "^9.0.0",
     "npm-run-all2": "^6.0.0",
     "rimraf": "^5.0.5",
-    "sass": "^1.77.0",
+    "sass": "^1.77.4",
     "typescript": "^5.0.4"
   },
   "engines": {
